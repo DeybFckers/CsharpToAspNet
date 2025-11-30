@@ -1,2 +1,2 @@
-Task 1 Calculator App \n
-Task 2 Crud App
+- Task 1 Calculator App
+- Task 2 Crud App
