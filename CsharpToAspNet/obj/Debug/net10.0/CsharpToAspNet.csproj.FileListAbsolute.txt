@@ -2,13 +2,4 @@ D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\CsharpToAspNet.Genera
 D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\CsharpToAspNet.AssemblyInfoInputs.cache
 D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\CsharpToAspNet.AssemblyInfo.cs
 D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\CsharpToAspNet.csproj.CoreCompileInputs.cache
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\bin\Debug\net10.0\CsharpToAspNet.exe
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\bin\Debug\net10.0\CsharpToAspNet.deps.json
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\bin\Debug\net10.0\CsharpToAspNet.runtimeconfig.json
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\bin\Debug\net10.0\CsharpToAspNet.dll
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\bin\Debug\net10.0\CsharpToAspNet.pdb
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\CsharpToAspNet.dll
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\refint\CsharpToAspNet.dll
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\CsharpToAspNet.pdb
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\CsharpToAspNet.genruntimeconfig.cache
-D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\ref\CsharpToAspNet.dll
+D:\roadmap\CsharpToAspNet\CsharpToAspNet\obj\Debug\net10.0\CsharpToAspNet.sourcelink.json

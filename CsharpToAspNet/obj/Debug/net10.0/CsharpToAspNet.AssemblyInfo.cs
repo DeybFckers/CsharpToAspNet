@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpToAspNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d95c1bcf810805832c44ca5ce01270c564b63d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpToAspNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpToAspNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
