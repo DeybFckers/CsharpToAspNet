@@ -8,3 +8,4 @@
 - Anonymous types 
 - Extension methods 
 - Anonymous functions 
+- DELEGATES - SINGLE, MULTI, GENERIC
