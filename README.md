@@ -1,2 +1,10 @@
 - Task 1 Calculator App
 - Task 2 Crud App
+- LINQ basics 
+- LINQ filtering 
+- LINQ projection 
+- LINQ grouping 
+- Lambda expressions  
+- Anonymous types 
+- Extension methods 
+- Anonymous functions 
