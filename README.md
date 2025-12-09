@@ -11,3 +11,4 @@
 - DELEGATES - SINGLE, MULTI, GENERIC
 - EVENT
 - RECORDS
+- Value and Reference Type
