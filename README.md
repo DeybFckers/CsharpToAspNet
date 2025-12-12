@@ -14,3 +14,4 @@
 - Value and Reference Type
 - Heap Vs Stack
 - Garbage Collection
+- Learn Heavy Linq and Lambda
