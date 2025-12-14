@@ -31,10 +31,10 @@ class TextParser
                     Read();
                     break;
                 case 3:
-                    Update();
+                    Uselectedrow();
                     break;
                 case 4:
-                    SelectedRow();
+                    Dselectedrow();
                     break;
             }
         }
@@ -152,13 +152,7 @@ class TextParser
         Console.ReadKey();
     }
 
-    static void Update()
-    {
-        Console.WriteLine("You are in Update");
-        return;
-    }
-
-    static void SelectedRow()
+    static void Uselectedrow()
     {
         try
         {
@@ -169,7 +163,72 @@ class TextParser
                 Console.WriteLine($"{id}: {lines[id]}");
             }
 
-            Console.Write("Please Select a ID to remove a Record: ");
+            Console.Write("Select a ID to modify a Record: ");
+            int selectedID = Convert.ToInt32(Console.ReadLine());
+
+            Update(selectedID);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    static void Update(int rowID)
+    {
+        try
+        {
+            var lines = File.ReadAllLines(filePath).ToList();
+
+            Console.WriteLine($"You Select: {rowID} ");
+
+            string[] column = { "Email", "Name", "Sales"};
+            
+            Console.Write("Select a column: ");
+            string selectedColumn = Console.ReadLine();
+
+            int colIndex = Array.FindIndex(column, c => c.Equals(selectedColumn, StringComparison.OrdinalIgnoreCase));
+
+            if (colIndex >= 0)
+            {
+                var row = lines[rowID].Split(',');
+                Console.WriteLine($"Current value: {row[colIndex]}");
+                Console.WriteLine(" ");
+
+                Console.Write("Enter your new value: ");
+                string newValue = Console.ReadLine();
+
+                row[colIndex] = newValue;
+                lines[rowID] = string.Join(",", row);
+
+                File.WriteAllLines(filePath, lines); 
+
+                Console.WriteLine("Record updated successfully!");
+            }
+            else
+            {
+                Console.WriteLine("Invalid column selected.");
+            }
+
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    static void Dselectedrow()
+    {
+        try
+        {
+            var lines = File.ReadAllLines(filePath).ToList();
+
+            for (int id = 0; id < lines.Count; id++)
+            {
+                Console.WriteLine($"{id}: {lines[id]}");
+            }
+
+            Console.Write("Select a ID to remove a Record: ");
             int selectedID = Convert.ToInt32(Console.ReadLine());
             Delete(selectedID);
         }
@@ -192,10 +251,15 @@ class TextParser
                 Console.WriteLine("Invalid ID");
                 return;
             }
-            lines.RemoveAt(rowID);
+
+            var deleteRecord = lines.ElementAtOrDefault(rowID);
+
+            lines.Remove(deleteRecord);
+            
             File.WriteAllLines(filePath, lines);
 
             Console.WriteLine($"Row {rowID} deleted successfully!");
+            return;
         }
         catch (Exception ex)
         {
