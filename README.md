@@ -16,3 +16,4 @@
 - Garbage Collection
 - Learn Heavy Linq and Lambda
 - Learn Text Parser Crud
+- Learn JSON
