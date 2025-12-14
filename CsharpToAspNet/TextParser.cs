@@ -5,9 +5,91 @@ using System.Text;
 using System.Text.RegularExpressions;
 class TextParser
 {
+    static String filePath = @"D:\roadmap\CsharpToAspNet\txtparser.csv";
     static void Main(string[] args)
     {
-        String filePath = @"D:\roadmap\CsharpToAspNet\txtparser.csv";
+        Console.WriteLine("Crud Text Parser App");
+
+        var num = 0; 
+        while(num != 5)
+        {
+            Console.WriteLine("(1) Create");
+            Console.WriteLine("(2) Read");
+            Console.WriteLine("(3) Update");
+            Console.WriteLine("(4) Delete");
+            Console.WriteLine("(5) Exit");
+
+            Console.Write("Select a Option: ");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            switch (num)
+            {
+                case 1:
+                    Create();
+                    break;
+                case 2:
+                    Read();
+                    break;
+                case 3:
+                    Update();
+                    break;
+                case 4:
+                    SelectedRow();
+                    break;
+            }
+        }
+
+        
+    }
+
+    public static void Create()
+    {
+        Console.WriteLine("---- Create ---");
+        Console.WriteLine(" ");
+
+        while (true)
+        {
+            Console.Write("Enter your Name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter your Email: ");
+            string email = Console.ReadLine();
+
+            Console.Write("Enter your Sales: ");
+            double sales = Convert.ToDouble(Console.ReadLine());
+
+            if (!Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                Console.WriteLine("Please Enter Valid Email");
+                continue;
+            }
+            else
+            {
+                var rec = new AddRecord(name, email, sales);
+                AddRecord.insertRecord(rec, filePath);
+                Console.WriteLine("Record Added");
+                break;
+            }
+        }
+    }
+
+    record AddRecord(String name, String email, double sales)
+    {
+        public static void insertRecord(AddRecord r, string filePath)
+        {
+            try
+            {
+                File.AppendAllText(filePath, $"{r.name},{r.email},{r.sales}\n");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error writing record: " + ex.Message);
+            }
+        }
+    }
+
+    static void Read()
+    {
         try
         {
             using (StreamReader reader = new StreamReader(filePath))
@@ -16,13 +98,13 @@ class TextParser
                 int counter = 0;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    Console.WriteLine(line);
+                    Console.WriteLine(line + " " + "Word: " + line.Count());
                     counter++;
-                    Console.WriteLine(line.Count());
                 }
                 Console.WriteLine("Total lines: " + counter);
             }
-        }catch (Exception ex)
+        }
+        catch (Exception ex)
         {
             Console.WriteLine(ex.Message);
         }
@@ -67,47 +149,59 @@ class TextParser
                  .Sum(value =>                           // Convert each value to double and sum them
                      double.Parse(value)
                  );
-
-
-        Console.WriteLine("Total Sales: " + totalSales);
-
-        Console.Write("Enter your Name: ");
-        string name = Console.ReadLine();
-
-        Console.Write("Enter your Email: ");
-        string email = Console.ReadLine();
-
-        Console.Write("Enter your Sales: ");
-        double sales = Convert.ToDouble(Console.ReadLine());
-
-        var rec = new Record(name, email, sales);
-        Record.AddRecord(rec, filePath);
-
         Console.ReadKey();
     }
-    
-    record Record(String name, String email, double sales)
+
+    static void Update()
     {
-        public string Email
+        Console.WriteLine("You are in Update");
+        return;
+    }
+
+    static void SelectedRow()
+    {
+        try
         {
-            get => email;
-            init
+            var lines = File.ReadAllLines(filePath).ToList();
+
+            for (int id = 0; id < lines.Count; id++)
             {
-                if (!Regex.IsMatch(value, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
-                    throw new ArgumentException("Invalid email format.");
-                email = value;
+                Console.WriteLine($"{id}: {lines[id]}");
             }
+
+            Console.Write("Please Select a ID to remove a Record: ");
+            int selectedID = Convert.ToInt32(Console.ReadLine());
+            Delete(selectedID);
         }
-        public static void AddRecord(Record r, string filePath)
+        catch(Exception ex)
         {
-            try
-            {
-                File.AppendAllText(filePath, $"{r.name},{r.email},{r.sales}\n");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error writing record: " + ex.Message);
-            }
+            Console.WriteLine(ex.Message);
         }
+
+    }
+
+    static void Delete(int rowID)
+    {
+        
+        try
+        {
+            var lines = File.ReadAllLines(filePath).ToList();
+
+            if (rowID <= 0 || rowID > lines.Count)
+            {
+                Console.WriteLine("Invalid ID");
+                return;
+            }
+            lines.RemoveAt(rowID);
+            File.WriteAllLines(filePath, lines);
+
+            Console.WriteLine($"Row {rowID} deleted successfully!");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+        Console.ReadKey();
     }
 }

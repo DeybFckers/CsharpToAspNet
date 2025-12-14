@@ -15,3 +15,4 @@
 - Heap Vs Stack
 - Garbage Collection
 - Learn Heavy Linq and Lambda
+- Learn Text Parser Crud
