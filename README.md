@@ -17,3 +17,4 @@
 - Learn Heavy Linq and Lambda
 - Learn Text Parser Crud
 - Learn JSON
+- Learn Async/Await
