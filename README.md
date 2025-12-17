@@ -18,3 +18,4 @@
 - Learn Text Parser Crud
 - Learn JSON
 - Learn Async/Await
+- Learn Task Parallel Library

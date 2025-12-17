@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpToAspNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d20186b1ab8d77422e33690b744ac693a672a258")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+206095b896d8cc82d875bff5362ae7f03222d9e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpToAspNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpToAspNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
