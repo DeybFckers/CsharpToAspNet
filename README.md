@@ -19,3 +19,4 @@
 - Learn JSON
 - Learn Async/Await
 - Learn Task Parallel Library
+- Learn async streams
