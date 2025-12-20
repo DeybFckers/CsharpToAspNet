@@ -20,3 +20,17 @@
 - Learn Async/Await
 - Learn Task Parallel Library
 - Learn async streams
+- Create first ASP.NET Core Web API
+- Learn API controllers
+- Learn routing
+- Learn attribute routing
+- Create GET endpoint
+- Create POST endpoint
+- Create PUT endpoint
+- Create DELETE endpoint
+- Create basic CRUD service
+- Learn dependency injection in ASP.NET Core
+- Register services
+- Singleton services
+- Build complete CRUD API
+- Add validation attributes
