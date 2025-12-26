@@ -6,6 +6,6 @@ namespace FirstWebApi.Contracts
       this is where we implement a crud operations*/
     public interface IUserRepository : IBaseRepository<User>
     {
-   
+        public string Login(string email, string password);
     }
 }

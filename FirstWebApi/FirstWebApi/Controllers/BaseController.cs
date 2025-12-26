@@ -1,11 +1,13 @@
 ﻿using FirstWebApi.Contracts;
 using FirstWebApi.Models;
 using FirstWebApi.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FirstWebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class BaseController<T> : Controller
     {
