@@ -34,3 +34,4 @@
 - Singleton services
 - Build complete CRUD API
 - Add validation attributes
+- I learn dto and automapping, jwt, validator
