@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|d:\\roadmap\\csharptoaspnet\\hotelbookingapi\\hotelbookingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|solutionrelative:hotelbookingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|d:\\roadmap\\csharptoaspnet\\hotelbookingapi\\hotelbookingapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|solutionrelative:hotelbookingapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|d:\\roadmap\\csharptoaspnet\\hotelbookingapi\\hotelbookingapi\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|solutionrelative:hotelbookingapi\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|d:\\roadmap\\csharptoaspnet\\hotelbookingapi\\hotelbookingapi\\contracts\\iservices\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|solutionrelative:hotelbookingapi\\contracts\\iservices\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|d:\\roadmap\\csharptoaspnet\\hotelbookingapi\\hotelbookingapi\\validator\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|solutionrelative:hotelbookingapi\\validator\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|d:\\roadmap\\csharptoaspnet\\hotelbookingapi\\hotelbookingapi\\contracts\\irepositoies\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|solutionrelative:hotelbookingapi\\contracts\\irepositoies\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|d:\\roadmap\\csharptoaspnet\\hotelbookingapi\\hotelbookingapi\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|solutionrelative:hotelbookingapi\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|d:\\roadmap\\csharptoaspnet\\hotelbookingapi\\hotelbookingapi\\models\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6DEB68E-72AF-F364-0601-C5AE020016E4}|HotelBookingApi\\HotelBookingApi.csproj|solutionrelative:hotelbookingapi\\models\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Program.cs",
+              "RelativeDocumentMoniker": "HotelBookingApi\\Program.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Program.cs*",
+              "RelativeToolTip": "HotelBookingApi\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T09:04:15.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Validator\\UserValidator.cs",
+              "RelativeDocumentMoniker": "HotelBookingApi\\Validator\\UserValidator.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Validator\\UserValidator.cs",
+              "RelativeToolTip": "HotelBookingApi\\Validator\\UserValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T08:54:09.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Contracts\\IRepositoies\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "HotelBookingApi\\Contracts\\IRepositoies\\IUsersRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Contracts\\IRepositoies\\IUsersRepository.cs",
+              "RelativeToolTip": "HotelBookingApi\\Contracts\\IRepositoies\\IUsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T08:17:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Contracts\\IServices\\IUsersService.cs",
+              "RelativeDocumentMoniker": "HotelBookingApi\\Contracts\\IServices\\IUsersService.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Contracts\\IServices\\IUsersService.cs",
+              "RelativeToolTip": "HotelBookingApi\\Contracts\\IServices\\IUsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T08:20:03.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "HotelBookingApi\\Repositories\\UsersRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "HotelBookingApi\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T08:18:52.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "HotelBookingApi\\Services\\UsersService.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Services\\UsersService.cs",
+              "RelativeToolTip": "HotelBookingApi\\Services\\UsersService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T08:17:30.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "HotelBookingApi\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "HotelBookingApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T08:18:54.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersDto.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Models\\DTOs\\UsersDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingApi\\Models\\DTOs\\UsersDto.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\Models\\DTOs\\UsersDto.cs",
+              "RelativeToolTip": "HotelBookingApi\\Models\\DTOs\\UsersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T08:17:33.411Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

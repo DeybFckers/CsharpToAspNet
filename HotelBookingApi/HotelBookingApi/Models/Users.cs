@@ -2,7 +2,7 @@
 
 namespace HotelBookingApi.Models
 {
-    public class Users : IBaseModel
+    public class Users
     {
         public int Id { get; set; }
         public String FirstName { get; set; }

@@ -7,12 +7,32 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="Infrastructure\" />
-    <Folder Include="Repository\" />
+    <Compile Remove="Controller\**" />
+    <Compile Remove="Helper\**" />
+    <Compile Remove="Infrastructure\**" />
+    <Compile Remove="Repository\**" />
+    <Content Remove="Controller\**" />
+    <Content Remove="Helper\**" />
+    <Content Remove="Infrastructure\**" />
+    <Content Remove="Repository\**" />
+    <EmbeddedResource Remove="Controller\**" />
+    <EmbeddedResource Remove="Helper\**" />
+    <EmbeddedResource Remove="Infrastructure\**" />
+    <EmbeddedResource Remove="Repository\**" />
+    <None Remove="Controller\**" />
+    <None Remove="Helper\**" />
+    <None Remove="Infrastructure\**" />
+    <None Remove="Repository\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Mapping\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
