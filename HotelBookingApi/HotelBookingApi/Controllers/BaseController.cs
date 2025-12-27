@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Http;
 
 namespace HotelBookingApi.Controllers
 {
-    [Route("api/[controller]")]
     public class BaseController<T> : Controller
     {
         private readonly IBaseRepository<T> _repository;
