@@ -1,31 +1,32 @@
 ﻿using HotelBookingApi.Contracts.IRepositoies;
 using HotelBookingApi.Contracts.IServices;
 using HotelBookingApi.Models;
-using HotelBookingApi.Models.DTOs;
-using HotelBookingApi.Validator;
 using Mapster;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace HotelBookingApi.Services
 {
     public class UsersService : IUsersService
     {
         private readonly IUsersRepository _repo;
-        private readonly UserValidator _userValidator;
-        public UsersService(IUsersRepository repo, UserValidator userValidator)
+        
+        public UsersService(IUsersRepository repo)
         {
             _repo = repo;
-            _userValidator = userValidator;
+            
         }
 
-        public void AddUser(Users users)
+        public void AddUser(CreateUsersDto dto)
         {
-            if (_userValidator.userValidator(users, out var error))
-            {
-                throw new Exception(error);
-            }
+            var user = dto.Adapt<Users>();
+            user.CreatedAt = DateTime.UtcNow;
 
-            _repo.Add(users);
+            _repo.Add(user);
+            
+        }
+
+        public void DeleteUser(int Id)
+        {
+            _repo.Delete(Id);
         }
 
         public IEnumerable<UsersDto> GetAll()
@@ -47,6 +48,18 @@ namespace HotelBookingApi.Services
             var usersDto = users.Adapt<UsersDto>();
 
             return usersDto;
+        }
+
+        public void UpdateUser(int id, UpdateUsersDto users)
+        {
+            var user = _repo.GetById(id);
+
+            user.FirstName = users.FirstName;
+            user.LastName = users.LastName;
+            user.Email = users.Email;
+            
+
+            _repo.Update(id, user);
         }
     }
 }

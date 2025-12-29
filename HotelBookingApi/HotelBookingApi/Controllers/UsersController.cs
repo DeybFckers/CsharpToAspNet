@@ -1,9 +1,6 @@
-﻿using HotelBookingApi.Contracts.IRepositoies;
-using HotelBookingApi.Contracts.IServices;
+﻿using HotelBookingApi.Contracts.IServices;
 using HotelBookingApi.Models;
-using HotelBookingApi.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using System.Reflection;
 
 namespace HotelBookingApi.Controllers
 {
@@ -32,10 +29,14 @@ namespace HotelBookingApi.Controllers
             return Ok(users);
         }
         [HttpPost]
-        public IActionResult Create([FromBody] Users users)
+        public IActionResult Create(CreateUsersDto users)
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 _usersServices.AddUser(users);
                 return Ok(new
                 {
@@ -45,6 +46,37 @@ namespace HotelBookingApi.Controllers
             }catch (Exception ex)
             {
                 return BadRequest(ex.Message);
+            }
+        }
+        [HttpPut("{Id}")]
+        public IActionResult Update(int id, UpdateUsersDto users)
+        {
+            try
+            {
+                _usersServices.UpdateUser(id, users);
+                return Ok(new
+                {
+                    message = "User Updated Successfully"
+                });
+            }catch(Exception ex)
+            {
+                return BadRequest();
+            }
+        }
+        [HttpDelete("{Id}")]
+        public IActionResult Delete(int Id)
+        {
+            try
+            {
+                _usersServices.DeleteUser(Id);
+                return Ok(new
+                {
+                    message = "User Remove Successfully"
+                });
+
+            }catch(Exception ex)
+            {
+                return BadRequest();
             }
         }
     }

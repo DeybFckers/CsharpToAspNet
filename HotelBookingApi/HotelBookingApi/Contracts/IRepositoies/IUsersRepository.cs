@@ -7,5 +7,7 @@ namespace HotelBookingApi.Contracts.IRepositoies
         IEnumerable<Users> GetAll();
         Users GetById(int Id);
         void Add(Users user);
+        void Update(int id, Users user);
+        void Delete(int Id);
     }
 }

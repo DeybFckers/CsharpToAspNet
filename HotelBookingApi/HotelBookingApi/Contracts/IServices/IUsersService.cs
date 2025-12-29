@@ -1,5 +1,4 @@
 ﻿using HotelBookingApi.Models;
-using HotelBookingApi.Models.DTOs;
 
 namespace HotelBookingApi.Contracts.IServices
 {
@@ -7,6 +6,8 @@ namespace HotelBookingApi.Contracts.IServices
     {
         IEnumerable<UsersDto> GetAll();
         UsersDto GetById(int Id);
-        void AddUser(Users users);
+        void AddUser(CreateUsersDto users);
+        void UpdateUser(int id, UpdateUsersDto users);
+        void DeleteUser(int Id);
     }
 }

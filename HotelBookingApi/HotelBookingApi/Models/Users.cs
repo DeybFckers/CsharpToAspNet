@@ -1,4 +1,5 @@
 ﻿using HotelBookingApi.Contracts;
+using System.ComponentModel.DataAnnotations;
 
 namespace HotelBookingApi.Models
 {
@@ -9,8 +10,37 @@ namespace HotelBookingApi.Models
         public String LastName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string role { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         
     }
+
+    public class UsersDto
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+    }
+
+    public class CreateUsersDto
+    {
+        [Required]
+        public String FirstName { get; set; }
+        [Required]
+        public String LastName { get; set; }
+        [Required, EmailAddress]
+        public string Email { get; set; }
+        [Required]
+        [MinLength(8)]
+        public string Password { get; set; }
+    }
+
+    public class UpdateUsersDto
+    {
+        //when you create a dto, always select a column in models that needed to be show
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+
+    }
+
 }
