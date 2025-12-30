@@ -1,3 +1,4 @@
+using FluentValidation;
 using HotelBookingApi.Contracts.IRepositoies;
 using HotelBookingApi.Contracts.IServices;
 using HotelBookingApi.Infrastructure;
@@ -14,11 +15,15 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<FakeDbContext>();
 
+builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly, includeInternalTypes: true);
+
 //register repository and services
 builder.Services.AddSingleton<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped<IUsersService, UsersService>();
 builder.Services.AddSingleton<IRoomsRepository, RoomsRepository>();
 builder.Services.AddScoped<IRoomsServices, RoomsServices>();
+builder.Services.AddSingleton<IReservationRepository, ReservationRepository>();
+builder.Services.AddScoped<IReservationServices, ReservationServices>();
 
 
 var app = builder.Build();
@@ -41,18 +46,50 @@ app.MapControllers();
 app.MapGet("/api/Rooms", (IRoomsServices iroomsServices) =>
 {
     var rooms = iroomsServices.GetAll();
-    return rooms is null ? Results.NotFound() : Results.Ok();
+    return rooms is null ? Results.NotFound() : Results.Ok(rooms);
 }).WithTags("Rooms");
 
 app.MapGet("/api/Rooms/{id}", (int id,IRoomsServices iroomsServices) =>
 {
     var rooms = iroomsServices.GetById(id);
-    return rooms is null ? Results.NotFound() : Results.Ok();
+    return rooms is null ? Results.NotFound() : Results.Ok(rooms);
 }).WithTags("Rooms");
 
-app.MapPost("/api/Rooms", (CreateRoomsDto createRoomsDto,IRoomsServices iroomsServices) =>
+app.MapPost("/api/Rooms", (CreateRoomsDto createRoomsDto,IRoomsServices iroomsServices, IValidator<CreateRoomsDto>validator) =>
 {
-   //continue in fluent validation
-});
+    var validationResult = validator.Validate(createRoomsDto);
+
+    if (!validationResult.IsValid)
+    {
+        var errors = validationResult.Errors.Select(e => new { e.PropertyName, e.ErrorMessage });
+        return Results.BadRequest(errors);
+    }
+
+    iroomsServices.AddRooms(createRoomsDto);
+
+    return Results.Ok(new
+    {
+        message = "Rooms Added Succesfully"
+    });
+}).WithTags("Rooms");
+
+app.MapPut("/api/Rooms/{id}", (int id, IRoomsServices iroomsServices, UpdateRoomsDto updateRoomsDto) =>
+{
+   iroomsServices.UpdateRooms(id, updateRoomsDto);
+
+    return Results.Ok(new
+    {
+        message = "Rooms Updated Successfully"
+    });
+}).WithTags("Rooms");
+
+app.MapDelete("/api/Rooms/{id}", (int id, IRoomsServices iroomsServices) =>
+{
+    iroomsServices.DeleteRooms(id);
+    return Results.Ok(new
+    {
+        message = "Rooms Removed Successfully"
+    });
+}).WithTags("Rooms");
 
 app.Run();

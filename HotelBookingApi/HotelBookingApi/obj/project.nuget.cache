@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "F5vV/ID1xeo=",
+  "dgSpecHash": "CxTaZVvoIB8=",
   "success": true,
   "projectFilePath": "D:\\roadmap\\CsharpToAspNet\\HotelBookingApi\\HotelBookingApi\\HotelBookingApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dave\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Dave\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\Dave\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\Dave\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\Dave\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",

@@ -13,13 +13,5 @@ namespace HotelBookingApi.Infrastructure
         public List<Users> Users { get; set; }
         public List<Rooms> Rooms { get; set; }
         public List<Reservation> Reservation { get; set; }
-
-        public IEnumerable<T> GetTable<T>()
-        {
-            return GetType()
-                .GetProperties()
-                .FirstOrDefault(p => p.GetValue(this, null) is IEnumerable<T>)
-                ?.GetValue(this, null) as List<T>;
-        }
     }
 }

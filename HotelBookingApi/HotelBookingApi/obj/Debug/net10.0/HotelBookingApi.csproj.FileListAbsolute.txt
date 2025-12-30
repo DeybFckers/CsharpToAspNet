@@ -45,3 +45,5 @@ D:\roadmap\CsharpToAspNet\HotelBookingApi\HotelBookingApi\obj\Debug\net10.0\Hote
 D:\roadmap\CsharpToAspNet\HotelBookingApi\HotelBookingApi\obj\Debug\net10.0\ref\HotelBookingApi.dll
 D:\roadmap\CsharpToAspNet\HotelBookingApi\HotelBookingApi\bin\Debug\net10.0\Mapster.dll
 D:\roadmap\CsharpToAspNet\HotelBookingApi\HotelBookingApi\bin\Debug\net10.0\Mapster.Core.dll
+D:\roadmap\CsharpToAspNet\HotelBookingApi\HotelBookingApi\bin\Debug\net10.0\FluentValidation.dll
+D:\roadmap\CsharpToAspNet\HotelBookingApi\HotelBookingApi\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

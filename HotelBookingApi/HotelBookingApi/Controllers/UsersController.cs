@@ -40,7 +40,7 @@ namespace HotelBookingApi.Controllers
                 _usersServices.AddUser(users);
                 return Ok(new
                 {
-                    message = "User Registered Successfull",
+                    message = "User Registered Successfully",
                     users = users
                 });
             }catch (Exception ex)
@@ -71,7 +71,7 @@ namespace HotelBookingApi.Controllers
                 _usersServices.DeleteUser(Id);
                 return Ok(new
                 {
-                    message = "User Remove Successfully"
+                    message = "User Removed Successfully"
                 });
 
             }catch(Exception ex)
