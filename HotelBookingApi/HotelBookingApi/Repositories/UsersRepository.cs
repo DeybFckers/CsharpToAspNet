@@ -29,6 +29,11 @@ namespace HotelBookingApi.Repositories
             return _db.Users;
         }
 
+        public Users? GetByEmail(string email)
+        {
+            return _db.Users.FirstOrDefault(x => x.Email == email);
+        }
+
         public Users GetById(int Id)
         {
             return _db.Users.FirstOrDefault(u => u.Id == Id);

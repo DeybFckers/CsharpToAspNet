@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\roadmap\\CsharpToAspNet\\LearnMiddleware\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B42248CD-1ED4-420E-AAE4-5036066F5884}|LearnMiddleware\\LearnMiddleware.csproj|d:\\roadmap\\csharptoaspnet\\learnmiddleware\\learnmiddleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42248CD-1ED4-420E-AAE4-5036066F5884}|LearnMiddleware\\LearnMiddleware.csproj|solutionrelative:learnmiddleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LearnMiddleware\\LearnMiddleware\\Program.cs",
+              "RelativeDocumentMoniker": "LearnMiddleware\\Program.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LearnMiddleware\\LearnMiddleware\\Program.cs*",
+              "RelativeToolTip": "LearnMiddleware\\Program.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:18:53.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

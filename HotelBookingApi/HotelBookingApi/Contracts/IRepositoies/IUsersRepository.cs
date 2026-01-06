@@ -9,5 +9,6 @@ namespace HotelBookingApi.Contracts.IRepositoies
         void Add(Users user);
         void Update(int id, Users user);
         void Delete(int Id);
+        Users? GetByEmail(string email);
     }
 }

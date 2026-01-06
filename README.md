@@ -35,5 +35,6 @@
 - Build complete CRUD API
 - Add validation attributes
 - I learn dto and automapping, jwt, validator
-- i lean minimal api
+- I lean minimal api
 - I learn Fluent Validation
+- I learn Middle and CustomMiddleware

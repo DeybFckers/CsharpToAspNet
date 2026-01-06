@@ -1,5 +1,7 @@
 ﻿using HotelBookingApi.Contracts.IServices;
 using HotelBookingApi.Models;
+using HotelBookingApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelBookingApi.Controllers
@@ -60,7 +62,7 @@ namespace HotelBookingApi.Controllers
                 });
             }catch(Exception ex)
             {
-                return BadRequest();
+                return BadRequest(ex.Message);
             }
         }
         [HttpDelete("{Id}")]
@@ -76,8 +78,19 @@ namespace HotelBookingApi.Controllers
 
             }catch(Exception ex)
             {
-                return BadRequest();
+                return BadRequest(ex.Message);
             }
+        }
+        [AllowAnonymous]
+        [HttpPost("Login")]
+        public IActionResult UsersLogin(UsersLoginDto users)
+        {
+            var token = _usersServices.Login(users);
+
+            if (token == null)
+                return Unauthorized("Invalid credentials");
+
+            return Ok(new { accessToken = token });
         }
     }
 }

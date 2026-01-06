@@ -43,4 +43,18 @@ namespace HotelBookingApi.Models
 
     }
 
+    public class UsersLoginDto
+    {
+        [Required]
+        public string Email { get; set; }
+        [Required]
+        public string Password { get; set; }
+    }
+
+    public class UsersTokenDto
+    {
+        public int Id { get; set; }
+        public string Email { get; set; }
+    }
+
 }

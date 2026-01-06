@@ -8,10 +8,11 @@ namespace HotelBookingApi.Services
     public class UsersService : IUsersService
     {
         private readonly IUsersRepository _repo;
-        
-        public UsersService(IUsersRepository repo)
+        private readonly ITokenServices _tokenService;
+        public UsersService(IUsersRepository repo, ITokenServices tokenService)
         {
             _repo = repo;
+            _tokenService = tokenService;
             
         }
 
@@ -19,6 +20,8 @@ namespace HotelBookingApi.Services
         {
             var user = dto.Adapt<Users>();
             user.CreatedAt = DateTime.UtcNow;
+
+            user.Password = BCrypt.Net.BCrypt.HashPassword(dto.Password);
 
             _repo.Add(user);
             
@@ -60,6 +63,25 @@ namespace HotelBookingApi.Services
             
 
             _repo.Update(id, user);
+        }
+
+        string? IUsersService.Login(UsersLoginDto users)
+        {
+            var user = _repo.GetByEmail(users.Email);
+
+            if (user == null)
+                return null;
+
+            bool isValid = BCrypt.Net.BCrypt.Verify(users.Password, user.Password);
+            if (!isValid) return null;
+
+            var tokenDto = new UsersTokenDto
+            {
+                Id = user.Id,
+                Email = user.Email,
+            };
+
+            return _tokenService.GenerateToken(tokenDto);
         }
     }
 }

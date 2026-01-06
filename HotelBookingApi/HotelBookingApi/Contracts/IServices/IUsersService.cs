@@ -9,5 +9,6 @@ namespace HotelBookingApi.Contracts.IServices
         void AddUser(CreateUsersDto users);
         void UpdateUser(int id, UpdateUsersDto users);
         void DeleteUser(int Id);
+        string? Login(UsersLoginDto users);
     }
 }

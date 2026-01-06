@@ -5,9 +5,17 @@ using HotelBookingApi.Infrastructure;
 using HotelBookingApi.Models;
 using HotelBookingApi.Repositories;
 using HotelBookingApi.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("Jwt"));
+
+var jwtOptions = builder.Configuration.GetSection("Jwt").Get<JwtOptions>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -24,7 +32,24 @@ builder.Services.AddSingleton<IRoomsRepository, RoomsRepository>();
 builder.Services.AddScoped<IRoomsServices, RoomsServices>();
 builder.Services.AddSingleton<IReservationRepository, ReservationRepository>();
 builder.Services.AddScoped<IReservationServices, ReservationServices>();
+builder.Services.AddScoped<ITokenServices, TokenService>();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
 
+            ValidIssuer = jwtOptions!.Issuer,
+            ValidAudience = jwtOptions.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.Key)),
+
+            ClockSkew = TimeSpan.Zero,
+        };
+    });
 
 var app = builder.Build();
 
@@ -40,6 +65,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseRouting();
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.MapControllers();
 
 //minimal api
