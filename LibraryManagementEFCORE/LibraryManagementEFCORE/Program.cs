@@ -1,4 +1,8 @@
 using LibraryManagementEFCORE.Data;
+using LibraryManagementEFCORE.Repositories.Implementation;
+using LibraryManagementEFCORE.Repository.Interfaces;
+using LibraryManagementEFCORE.Services.Implementation;
+using LibraryManagementEFCORE.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,6 +17,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IAuthorServices, AuthorServices>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -21,7 +28,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My LibraryManagementAPI V1");
     });
 }
 

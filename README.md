@@ -39,3 +39,4 @@
 - I learn Fluent Validation
 - I learn Middle and CustomMiddleware
 - I learn how to connect the database using efcore
+- I learn CRUD using efcore

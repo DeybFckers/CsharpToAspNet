@@ -169,3 +169,6 @@ D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\De
 D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
+D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\BCrypt.Net-Next.dll
+D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\Mapster.dll
+D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\Mapster.Core.dll
