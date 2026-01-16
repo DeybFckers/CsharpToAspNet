@@ -5,7 +5,7 @@
         public int AuthorId { get; set; }
         public string Title { get; set; }
         public string References { get; set; }
-        public bool IsAvailable { get; set; } = false;
+        public bool IsAvailable { get; set; }
     }
     public class BookProfileDto
     {

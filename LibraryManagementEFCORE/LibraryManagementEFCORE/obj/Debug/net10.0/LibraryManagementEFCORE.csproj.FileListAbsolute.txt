@@ -172,3 +172,6 @@ D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\De
 D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\BCrypt.Net-Next.dll
 D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\Mapster.dll
 D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\Mapster.Core.dll
+D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\FluentValidation.dll
+D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\roadmap\CsharpToAspNet\LibraryManagementEFCORE\LibraryManagementEFCORE\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

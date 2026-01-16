@@ -14,34 +14,32 @@ namespace LibraryManagementEFCORE.Repositories.Implementation
             _context = context;
         }
 
-        public async Task AddAsync(Author author)
+        public async Task AddAuthorAsync(Author author)
         {
             await _context.Authors.AddAsync(author);
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAuthorAsync(int id)
         {
             var author = await _context.Authors.FindAsync(id);
             _context.Authors.Remove(author);
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<Author>> GetAllAsync()
+        public async Task<IEnumerable<Author>> GetAllAuthorAsync()
         {
             return await _context.Authors.ToListAsync();
         }
 
-        public async Task<Author> GetByIdAsync(int id)
+        public async Task<Author> GetByAuthorIdAsync(int id)
         {
             return await _context.Authors.FindAsync(id);
         }
 
-        public async Task UpdateAsync(Author author, int id)
+        public async Task UpdateAuthorAsync(Author author)
         {
-            var authors = await _context.Authors.FindAsync(id);
-            authors.Name = author.Name;
-            authors.Email = author.Email;
+            await _context.SaveChangesAsync();
 
         }
     }

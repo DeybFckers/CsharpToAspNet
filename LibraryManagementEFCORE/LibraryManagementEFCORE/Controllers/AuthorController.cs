@@ -19,7 +19,7 @@ namespace LibraryManagementEFCORE.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<AuthorProfileDto>> GetByIdAuthor(int id)
         {
-            var author = await _authorServices.GetByIdAsync(id);
+            var author = await _authorServices.GetByAuthorIdAsync(id);
             if (author == null) return NotFound();
 
             return Ok(new
@@ -32,14 +32,14 @@ namespace LibraryManagementEFCORE.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AuthorProfileDto>>> GetAllAuthor()
         {
-            var authors = await _authorServices.GetAllAsync();
+            var authors = await _authorServices.GetAllAuthorAsync();
             return Ok(authors);
         }
 
         [HttpPost]
         public async Task<ActionResult> CreateAuthor(AuthorCreateDto authorDto)
         {
-            await _authorServices.AddAsync(authorDto);
+            await _authorServices.AddAuthorAsync(authorDto);
 
             return Ok(new
             {
@@ -51,7 +51,7 @@ namespace LibraryManagementEFCORE.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateAuthor(AuthorUpdateDto authorDto, int id)
         {
-            var authors =await _authorServices.UpdateAsync(authorDto, id);
+            var authors =await _authorServices.UpdateAuthorAsync(authorDto, id);
 
             if (!authors)
                 return NotFound(new { message = $"Author with id {id} not found" });
@@ -62,10 +62,10 @@ namespace LibraryManagementEFCORE.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAuthor(int id)
         {
-            var author = await _authorServices.GetByIdAsync(id);
-            if (author == null) return NotFound();
+            var author = await _authorServices.GetByAuthorIdAsync(id);
+            if (author == null) return NotFound(new { message = $"Author with id {id} not found" });
 
-            await _authorServices.DeleteAsync(id);
+            await _authorServices.DeleteAuthorAsync(id);
 
             return Ok(new { message = "Author Deleted Successfully" });
         }

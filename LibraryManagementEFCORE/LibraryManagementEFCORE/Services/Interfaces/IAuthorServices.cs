@@ -5,11 +5,11 @@ namespace LibraryManagementEFCORE.Services.Interfaces
 {
     public interface IAuthorServices
     {
-        Task<IEnumerable<AuthorProfileDto>> GetAllAsync();
-        Task<AuthorProfileDto> GetByIdAsync(int id);
-        Task AddAsync(AuthorCreateDto author);
-        Task DeleteAsync(int id);
-        Task<bool> UpdateAsync(AuthorUpdateDto author, int id);
+        Task<IEnumerable<AuthorProfileDto>> GetAllAuthorAsync();
+        Task<AuthorProfileDto> GetByAuthorIdAsync(int id);
+        Task AddAuthorAsync(AuthorCreateDto author);
+        Task DeleteAuthorAsync(int id);
+        Task<bool> UpdateAuthorAsync(AuthorUpdateDto author, int id);
 
     }
 }

@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HotelBookingApi",
-    "\\HotelBookingApi\\Repositories"
+    "\\HotelBookingApi"
   ],
-  "SelectedNode": "\\HotelBookingApi.slnx",
+  "SelectedNode": "\\HotelBookingApi\\Repositories",
   "PreviewInSolutionExplorer": false
 }

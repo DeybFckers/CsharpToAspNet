@@ -8,7 +8,7 @@
         public Author Author { get; set; } //Navigation
         public string Title { get; set; }
         public string References { get; set; }
-        public bool IsAvailable { get; set; } = false;
+        public bool IsAvailable { get; set; }
         //add this if this table is will be foriegn key to another table
         public ICollection<Record> Records { get; set; }
     }

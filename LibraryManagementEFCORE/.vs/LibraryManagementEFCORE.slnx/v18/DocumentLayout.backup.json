@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\repositories\\interfaces\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\repositories\\interfaces\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\services\\implementation\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\services\\implementation\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\repositories\\implementation\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\repositories\\implementation\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\services\\interfaces\\iauthorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\services\\interfaces\\iauthorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\services\\implementation\\tokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\services\\implementation\\tokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\models\\dtos\\authordtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\models\\dtos\\authordtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\services\\implementation\\memberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\services\\implementation\\memberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\services\\interfaces\\imemberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\services\\interfaces\\imemberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\repositories\\implementation\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\repositories\\implementation\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\repositories\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\repositories\\interfaces\\irecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\repositories\\interfaces\\irecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\repositories\\implementation\\recordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\repositories\\implementation\\recordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\services\\interfaces\\itokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\services\\interfaces\\itokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\services\\implementation\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\services\\implementation\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\models\\dtos\\memberdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\models\\dtos\\memberdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\repositories\\interfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\repositories\\interfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|d:\\roadmap\\csharptoaspnet\\librarymanagementefcore\\librarymanagementefcore\\models\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB28C07-B723-22BD-070B-34E5C66C019D}|LibraryManagementEFCORE\\LibraryManagementEFCORE.csproj|solutionrelative:librarymanagementefcore\\models\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +66,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAuthorRepository.cs",
-              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Interfaces\\IAuthorRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IAuthorRepository.cs",
-              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Interfaces\\IAuthorRepository.cs",
-              "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IAuthorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:47:55.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthorServices.cs",
-              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
-              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
-              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
-              "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Controllers\\MemberController.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T06:14:14.199Z",
+              "WhenOpened": "2026-01-16T15:24:53.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Controllers\\AuthorController.cs",
-              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "LibraryManagementEFCORE\\Controllers\\AuthorController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowBwAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IRecordRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Interfaces\\IRecordRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IRecordRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Interfaces\\IRecordRepository.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IRecordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:25:50.396Z",
+              "WhenOpened": "2026-01-16T15:13:22.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthorRepository.cs",
-              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Implementation\\AuthorRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Repositories\\Implementation\\AuthorRepository.cs",
-              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Implementation\\AuthorRepository.cs",
-              "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Implementation\\AuthorRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "RecordRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Implementation\\RecordRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Repositories\\Implementation\\RecordRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Implementation\\RecordRepository.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Implementation\\RecordRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:05:54.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAuthorServices.cs",
-              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Interfaces\\IAuthorServices.cs",
-              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Services\\Interfaces\\IAuthorServices.cs",
-              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Interfaces\\IAuthorServices.cs",
-              "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Interfaces\\IAuthorServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:23:56.013Z",
+              "WhenOpened": "2026-01-16T15:13:20.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Implementation\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Repositories\\Implementation\\MemberRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Implementation\\MemberRepository.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Implementation\\MemberRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAjwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T15:03:09.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Implementation\\MemberServices.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Services\\Implementation\\MemberServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Implementation\\MemberServices.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Implementation\\MemberServices.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADgvz8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T15:00:19.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthorServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T15:00:14.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITokenServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Interfaces\\ITokenServices.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Services\\Interfaces\\ITokenServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Interfaces\\ITokenServices.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Interfaces\\ITokenServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:58:27.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Implementation\\TokenServices.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Services\\Implementation\\TokenServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Implementation\\TokenServices.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Implementation\\TokenServices.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:52:51.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Program.cs",
               "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Program.cs",
               "RelativeToolTip": "LibraryManagementEFCORE\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwGcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:32:11.066Z",
+              "WhenOpened": "2026-01-16T07:24:56.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AuthorDTOs.cs",
-              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Models\\DTOs\\AuthorDTOs.cs",
-              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Models\\DTOs\\AuthorDTOs.cs",
-              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Models\\DTOs\\AuthorDTOs.cs",
-              "RelativeToolTip": "LibraryManagementEFCORE\\Models\\DTOs\\AuthorDTOs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T06:13:16.142Z",
+              "WhenOpened": "2026-01-16T15:13:23.115Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMemberServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Interfaces\\IMemberServices.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Services\\Interfaces\\IMemberServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Services\\Interfaces\\IMemberServices.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Interfaces\\IMemberServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T15:00:46.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Interfaces\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IMemberRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Repositories\\Interfaces\\IMemberRepository.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T15:03:12.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MemberDTOs.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Models\\DTOs\\MemberDTOs.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Models\\DTOs\\MemberDTOs.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Models\\DTOs\\MemberDTOs.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Models\\DTOs\\MemberDTOs.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:50:02.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Models\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "LibraryManagementEFCORE\\Models\\Entities\\Author.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\LibraryManagementEFCORE\\LibraryManagementEFCORE\\Models\\Entities\\Author.cs",
+              "RelativeToolTip": "LibraryManagementEFCORE\\Models\\Entities\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:49:23.962Z"
             }
           ]
         }
