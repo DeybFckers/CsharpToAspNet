@@ -78,8 +78,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Controllers\\MemberController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAIwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:24:53.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:24:53.593Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IRecordRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:13:22.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:13:22.111Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Implementation\\RecordRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:13:20.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:13:20.31Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Implementation\\MemberRepository.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAjwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:03:09.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:03:09.816Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Implementation\\MemberServices.cs",
               "ViewState": "AgIAACsAAAAAAAAAAADgvz8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:00:19.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:00:19.733Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Implementation\\AuthorServices.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAIwA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:00:14.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:00:14.094Z"
             },
             {
               "$type": "Document",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Interfaces\\ITokenServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T07:58:27.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T07:58:27.133Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Program.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAiwGcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T07:24:56.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T07:24:56.677Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IBookRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:13:23.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:13:23.115Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Services\\Interfaces\\IMemberServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:00:46.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:00:46.797Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Repositories\\Interfaces\\IMemberRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T15:03:12.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T15:03:12.169Z"
             },
             {
               "$type": "Document",
@@ -234,8 +223,7 @@
               "RelativeToolTip": "LibraryManagementEFCORE\\Models\\DTOs\\MemberDTOs.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwCIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T07:50:02.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T07:50:02.663Z"
             },
             {
               "$type": "Document",

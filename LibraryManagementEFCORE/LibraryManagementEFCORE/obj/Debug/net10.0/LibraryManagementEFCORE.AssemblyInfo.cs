@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibraryManagementEFCORE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa875886ceef806c155df18d54ae3a95eef92bab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7df187e24d4851a6fac337b94d4736d53ef1b48f")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibraryManagementEFCORE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibraryManagementEFCORE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

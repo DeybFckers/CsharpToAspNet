@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216160910_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RolebaseAuthentication\\Migrations\\20260216160910_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216155957_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RolebaseAuthentication\\Migrations\\20260216155957_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\controller\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\controller\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\controller\\auth\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\controller\\auth\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\models\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\models\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\services\\implementation\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\services\\implementation\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|d:\\roadmap\\csharptoaspnet\\rolebaseauthentication\\rolebaseauthentication\\services\\interface\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A532E9-4AB4-25DA-D7B6-EF78E326FE93}|RolebaseAuthentication\\RolebaseAuthentication.csproj|solutionrelative:rolebaseauthentication\\services\\interface\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216152818_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RolebaseAuthentication\\Migrations\\20260216152818_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260216160910_initial.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216160910_initial.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Migrations\\20260216160910_initial.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216160910_initial.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Migrations\\20260216160910_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:09:10.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260216155957_initial.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216155957_initial.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Migrations\\20260216155957_initial.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216155957_initial.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Migrations\\20260216155957_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:59:57.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Services\\Interface\\IAuthServices.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Services\\Interface\\IAuthServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Services\\Interface\\IAuthServices.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Services\\Interface\\IAuthServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:47:49.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Repositories\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Repositories\\Implementation\\UserRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Repositories\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Repositories\\Implementation\\UserRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvy4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:40:32.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:35:03.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T15:26:07.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Models\\Register.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Models\\Register.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T15:24:20.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Models\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Models\\JwtOptions.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Models\\JwtOptions.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Models\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T15:46:35.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Models\\Login.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Models\\Login.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T15:23:36.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Program.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Program.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwFcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T15:23:21.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\appsettings.json",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\appsettings.json",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\appsettings.json",
+              "RelativeToolTip": "RolebaseAuthentication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-16T16:00:14.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Services\\Implementation\\AuthServices.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Services\\Implementation\\AuthServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Services\\Implementation\\AuthServices.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Services\\Implementation\\AuthServices.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:48:32.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Controller\\Auth\\RoleController.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Controller\\Auth\\RoleController.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Controller\\Auth\\RoleController.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Controller\\Auth\\RoleController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:12:44.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Controller\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Controller\\Auth\\AuthController.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Controller\\Auth\\AuthController.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Controller\\Auth\\AuthController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T14:55:27.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260216152818_initial migration.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216152818_initial migration.cs",
+              "RelativeDocumentMoniker": "RolebaseAuthentication\\Migrations\\20260216152818_initial migration.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\RolebaseAuthentication\\RolebaseAuthentication\\Migrations\\20260216152818_initial migration.cs",
+              "RelativeToolTip": "RolebaseAuthentication\\Migrations\\20260216152818_initial migration.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:28:20.725Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
