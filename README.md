@@ -41,3 +41,4 @@
 - I learn how to connect the database using efcore
 - I learn CRUD using efcore
 - I Learn Asp.Net Identity with Role base Authorization
+I improve my Asp.Net Identity with Dtos
