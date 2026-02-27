@@ -1,13 +1,18 @@
-﻿namespace TaskManagement.Models.DTOs
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TaskManagement.Models.DTOs
 {
     public class CreateProjectDto
     {
+        [Required]
         public string Name { get; set; } = null!;
+        [Required]
         public string Description { get; set; } = null!;
     }
 
     public class UpdateProjectDto
     {
+        [Required]
         public Guid Id { get; set; }
         public string Name { get; set; } = null!;
         public string Description { get; set; } = null!;

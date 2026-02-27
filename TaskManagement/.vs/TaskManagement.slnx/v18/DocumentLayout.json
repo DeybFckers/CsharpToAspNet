@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\repositories\\implementation\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\repositories\\implementation\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\services\\implementation\\projectservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\implementation\\projectservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\controllers\\auth\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\auth\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\services\\implementation\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\implementation\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\dtos\\auth\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\dtos\\auth\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\dtos\\auth\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\dtos\\auth\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\entities\\projectmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\entities\\projectmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +63,157 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProjectRepository.cs",
-              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Repositories\\Implementation\\ProjectRepository.cs",
-              "RelativeDocumentMoniker": "TaskManagement\\Repositories\\Implementation\\ProjectRepository.cs",
-              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Repositories\\Implementation\\ProjectRepository.cs",
-              "RelativeToolTip": "TaskManagement\\Repositories\\Implementation\\ProjectRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDEAAAAJAAAAAAAAAA==",
+              "Title": "ProjectServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Implementation\\ProjectServices.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Services\\Implementation\\ProjectServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Implementation\\ProjectServices.cs",
+              "RelativeToolTip": "TaskManagement\\Services\\Implementation\\ProjectServices.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T14:23:14.685Z",
+              "WhenOpened": "2026-02-27T13:26:38.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "roleController.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\Auth\\roleController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\Auth\\roleController.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\Auth\\roleController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\Auth\\roleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:19:25.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Implementation\\AuthServices.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Services\\Implementation\\AuthServices.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Implementation\\AuthServices.cs",
+              "RelativeToolTip": "TaskManagement\\Services\\Implementation\\AuthServices.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowFkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:17:46.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "authController.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\Auth\\authController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\Auth\\authController.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\Auth\\authController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\Auth\\authController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:17:24.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\RefreshToken.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:11:19.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectMember.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\ProjectMember.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\ProjectMember.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\ProjectMember.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\Entities\\ProjectMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:11:19.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\TaskDto.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\TaskDto.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\TaskDto.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\DTOs\\TaskDto.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:10:47.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\Auth\\Register.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\Auth\\Register.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\Auth\\Register.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\DTOs\\Auth\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:08:10.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\Auth\\Login.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\Auth\\Login.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\Auth\\Login.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\DTOs\\Auth\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:07:53.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\Project.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\Project.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:07:40.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\AuditLog.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\Entities\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:07:39.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\ProjectDto.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\ProjectDto.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\DTOs\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:01:48.793Z",
               "EditorCaption": ""
             }
           ]
