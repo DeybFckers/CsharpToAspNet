@@ -24,7 +24,11 @@ namespace TaskManagement.Controllers
             {
                 var task = await _taskServices.GetTaskById(id);
                 if (task == null) return NotFound(ApiResponse<string>.Failure("Task not found."));
-                return Ok(ApiResponse<string>.SuccessResponse(task.ToString(), "Task Found Successfully"));
+                return Ok(new
+                {
+                    message = "Task found successfully",
+                    task = task
+                });
             }
             catch (Exception ex)
             {
@@ -80,7 +84,7 @@ namespace TaskManagement.Controllers
         }
 
         [Authorize(Roles = "Admin,Manager")]
-        [HttpPut("assign-task")]
+        [HttpPost("assign-task")]
         public async Task<IActionResult> AssignTask([FromBody] AssignTaskDto task)
         {
             try

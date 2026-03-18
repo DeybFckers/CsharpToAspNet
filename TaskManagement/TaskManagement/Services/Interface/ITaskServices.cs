@@ -10,7 +10,7 @@ namespace TaskManagement.Services.Interface
         Task<TaskItem> AddTask(CreateTaskDto task);
         Task DeleteTask(Guid id);
         Task<TaskDto> UpdateTask(TaskDto task);
-        Task AssignTask(Guid taskId, Guid userId);
-        Task UpdateStatus(Guid taskId, TaskStatusDto status);
+        Task<TaskDto> AssignTask(Guid taskId, Guid userId);
+        Task<TaskDto> UpdateStatus(Guid taskId, TaskStatusDto status);
     }
 }

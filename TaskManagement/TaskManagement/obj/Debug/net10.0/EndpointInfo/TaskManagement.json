@@ -67,6 +67,37 @@
         }
       }
     },
+    "/api/auth/refresh": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/project/{id}": {
       "get": {
         "tags": [
@@ -327,7 +358,7 @@
       }
     },
     "/api/task/assign-task": {
-      "put": {
+      "post": {
         "tags": [
           "task"
         ],
@@ -503,7 +534,6 @@
       },
       "CreateTaskDto": {
         "required": [
-          "description",
           "dueDate",
           "projectId",
           "title"
@@ -515,8 +545,8 @@
             "type": "string"
           },
           "description": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "projectId": {
             "type": "string",
@@ -548,9 +578,23 @@
         },
         "additionalProperties": false
       },
+      "RefreshRequest": {
+        "required": [
+          "refreshToken"
+        ],
+        "type": "object",
+        "properties": {
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Register": {
         "required": [
           "email",
+          "firstName",
           "lastName",
           "password",
           "userName"
@@ -558,8 +602,9 @@
         "type": "object",
         "properties": {
           "firstName": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "pattern": "^[a-zA-Z]+$",
+            "type": "string"
           },
           "lastName": {
             "minLength": 1,
@@ -596,6 +641,10 @@
           "description": {
             "type": "string",
             "nullable": true
+          },
+          "projectId": {
+            "type": "string",
+            "format": "uuid"
           },
           "status": {
             "$ref": "#/components/schemas/TaskStatusDto"

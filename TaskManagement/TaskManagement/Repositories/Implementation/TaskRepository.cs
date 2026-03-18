@@ -31,13 +31,19 @@ namespace TaskManagement.Repositories.Implementation
 
         public async Task<IEnumerable<TaskItem>> GetAllTask()
         {
-            return await _context.TaskItems.ToListAsync();
+            return await _context.TaskItems
+                                .Include(t => t.AssignedTo)   
+                                .Include(t => t.Project)
+                                .ToListAsync();
         }
 
 
         public async Task<TaskItem> GetTaskById(Guid id)
         {
-            return await _context.TaskItems.FindAsync(id);
+            return await _context.TaskItems
+                                .Include(t => t.AssignedTo)   
+                                .Include(t => t.Project)      
+                                .FirstOrDefaultAsync(t => t.Id == id);
         }
 
         public async Task UpdateTask(TaskItem task)

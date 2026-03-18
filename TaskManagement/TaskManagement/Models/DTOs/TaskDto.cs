@@ -7,6 +7,7 @@ namespace TaskManagement.Models.DTOs
         public Guid Id { get; set; }
         public string Title { get; set; }
         public string? Description { get; set; }
+        public Guid ProjectId { get; set; }
         public TaskStatusDto Status { get; set; }
         public string? AssignedToUser { get; set; }
         public DateTime? DueDate { get; set; }

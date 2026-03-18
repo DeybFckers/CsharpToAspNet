@@ -27,6 +27,16 @@ namespace TaskManagement.Models.DTOs
         public CreatorDto CreatedBy { get; set; } = null!;
     }
 
+    public class ProjectWithTasksDto
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; } = null!;
+        public string Description { get; set; } = null!;
+        public List<TaskDto> tasks { get; set; } = new();
+        public DateTime CreatedAt { get; set; }
+        public CreatorDto CreatedBy { get; set; } = null!;
+    }
+
     public class CreatorDto
     {
         public Guid Id { get; set; }

@@ -42,11 +42,11 @@ namespace TaskManagement.Services.Implementation
             return allProjects.Adapt<IEnumerable<ProjectDto>>();
         }
 
-        public async Task<ProjectDto> GetProjectById(Guid id)
+        public async Task<ProjectWithTasksDto> GetProjectById(Guid id)
         {
             var project = await _projectRepository.GetProjectById(id);
             if (project == null) return null;
-            return project.Adapt<ProjectDto>();
+            return project.Adapt<ProjectWithTasksDto>();
         }
 
         public async Task<bool> UpdateProject(UpdateProjectDto project)

@@ -37,8 +37,10 @@ namespace TaskManagement.Repositories.Implementation
         public async Task<Project> GetProjectById(Guid id)
         {
             return await _context.Projects
-                                 .Include(p => p.CreatedBy)
-                                 .FirstOrDefaultAsync(p => p.Id == id);
+                                .Include(p => p.Tasks)
+                                .Include(p => p.CreatedBy)
+                                .FirstOrDefaultAsync(p => p.Id == id);
+           
         }
 
         public async Task<Project> GetProjectByIdForFind(Guid id)

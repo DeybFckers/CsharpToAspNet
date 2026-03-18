@@ -10,11 +10,20 @@ namespace TaskManagement.Services.Implementation
     {
         private readonly ITaskRepository _taskRepository;
         private readonly IProjectRepository _projectRepository;
+        private readonly IUserRepository _userRepository;
 
-        public TaskServices(ITaskRepository taskRepository, IProjectRepository projectRepository)
+        public TaskServices(ITaskRepository taskRepository, IProjectRepository projectRepository, IUserRepository userRepository)
         {
             _taskRepository = taskRepository;
             _projectRepository = projectRepository;
+            _userRepository = userRepository;
+
+            // Mapster config to map AssignedToUser automatically
+            TypeAdapterConfig<TaskItem, TaskDto>.NewConfig()
+                .Map(dest => dest.AssignedToUser, src => src.AssignedTo != null
+                    ? $"{src.AssignedTo.FirstName} {src.AssignedTo.LastName}"
+                    : null);
+            
         }
 
         public async Task<TaskItem> AddTask(CreateTaskDto dto)
@@ -80,24 +89,37 @@ namespace TaskManagement.Services.Implementation
             return task.Adapt<TaskDto>();
         }
 
-        public async Task AssignTask(Guid taskId, Guid userId)
+        public async Task<TaskDto> AssignTask(Guid taskId, Guid userId)
         {
             var task = await _taskRepository.GetTaskById(taskId);
             if (task == null)
                 throw new KeyNotFoundException("Task not found");
 
-            if (userId == Guid.Empty)
+            var user = await _userRepository.GetUserById(userId);
+
+            if (user == null)
                 throw new KeyNotFoundException("User not found");
+
+            if(task.AssignedToUserId == user.Id)
+                throw new InvalidOperationException("Task is already assigned to this user");
 
             task.AssignedToUserId = userId;
             await _taskRepository.UpdateTask(task);
+
+            task = await _taskRepository.GetTaskById(taskId);
+            return task.Adapt<TaskDto>();
         }
 
-        public async Task UpdateStatus(Guid taskId, TaskStatusDto status)
+        public async Task<TaskDto> UpdateStatus(Guid taskId, TaskStatusDto status)
         {
             var task = await _taskRepository.GetTaskById(taskId);
             if (task == null)
                 throw new KeyNotFoundException("Task not found");
+
+            var user = await _userRepository.GetUserById(task.AssignedToUserId ?? Guid.Empty);
+            
+            if(!user.Id.Equals(Guid.Empty) && user.Id != task.AssignedToUserId)
+                throw new InvalidOperationException("Only the assigned user can update the task status");
 
             task.Status = status switch
             {
@@ -108,6 +130,9 @@ namespace TaskManagement.Services.Implementation
             };
 
             await _taskRepository.UpdateTask(task);
+
+            task = await _taskRepository.GetTaskById(taskId);
+            return task.Adapt<TaskDto>();
         }
     }
 }

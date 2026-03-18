@@ -6,5 +6,6 @@ namespace TaskManagement.Services.Interface
     {
         Task<AuthResponseDto> Login(Login login);
         Task<bool> Register(Register register);
+        Task<AuthResponseDto> RefreshToken(string refreshToken);
     }
 }
