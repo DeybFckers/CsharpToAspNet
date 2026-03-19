@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\services\\implementation\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\implementation\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\dtos\\auth\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\dtos\\auth\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\services\\implementation\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\implementation\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\models\\dtos\\auth\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\dtos\\auth\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|d:\\roadmap\\csharptoaspnet\\taskmanagement\\taskmanagement\\services\\interface\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,11 +146,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagement\\appsettings.json",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\appsettings.json",
+              "RelativeToolTip": "TaskManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-19T04:59:05.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Program.cs",
+              "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeToolTip": "TaskManagement\\Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAiwGUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T04:58:55.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AuthRepository.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Repositories\\Implementation\\AuthRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Repositories\\Implementation\\AuthRepository.cs",
@@ -150,12 +183,11 @@
               "RelativeToolTip": "TaskManagement\\Repositories\\Implementation\\AuthRepository.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAuwD0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T12:57:05.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T12:57:05.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IAuthRepository.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Repositories\\Interface\\IAuthRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Repositories\\Interface\\IAuthRepository.cs",
@@ -163,12 +195,11 @@
               "RelativeToolTip": "TaskManagement\\Repositories\\Interface\\IAuthRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T12:54:36.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T12:54:36.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "JwtOptions.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\JwtOptions.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\JwtOptions.cs",
@@ -176,12 +207,11 @@
               "RelativeToolTip": "TaskManagement\\Models\\JwtOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T12:54:28.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T12:54:28.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "TokenUtils.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\Auth\\TokenUtils.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\Auth\\TokenUtils.cs",
@@ -189,12 +219,11 @@
               "RelativeToolTip": "TaskManagement\\Models\\DTOs\\Auth\\TokenUtils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T12:46:34.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T12:46:34.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Data\\ApplicationDbContext.cs",
@@ -202,38 +231,37 @@
               "RelativeToolTip": "TaskManagement\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAuwEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:44:17.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T14:44:17.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AuthServices.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Implementation\\AuthServices.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Services\\Implementation\\AuthServices.cs",
               "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Implementation\\AuthServices.cs",
               "RelativeToolTip": "TaskManagement\\Services\\Implementation\\AuthServices.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAUwL8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAiwHcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T13:17:46.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "authController.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\Auth\\authController.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Controllers\\Auth\\authController.cs",
               "ToolTip": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\Auth\\authController.cs",
               "RelativeToolTip": "TaskManagement\\Controllers\\Auth\\authController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwD8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwDoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T13:17:24.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\Auth\\Login.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\Auth\\Login.cs",
@@ -241,12 +269,11 @@
               "RelativeToolTip": "TaskManagement\\Models\\DTOs\\Auth\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:07:53.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T13:07:53.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IAuthServices.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Interface\\IAuthServices.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Services\\Interface\\IAuthServices.cs",
@@ -254,12 +281,11 @@
               "RelativeToolTip": "TaskManagement\\Services\\Interface\\IAuthServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T13:10:37.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T13:10:37.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "projectController.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\projectController.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Controllers\\projectController.cs",
@@ -267,12 +293,11 @@
               "RelativeToolTip": "TaskManagement\\Controllers\\projectController.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAewBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:58:17.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T13:58:17.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "roleController.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\Auth\\roleController.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Controllers\\Auth\\roleController.cs",
@@ -280,12 +305,11 @@
               "RelativeToolTip": "TaskManagement\\Controllers\\Auth\\roleController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:19:25.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T13:19:25.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Register.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\Auth\\Register.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\Auth\\Register.cs",
@@ -293,12 +317,11 @@
               "RelativeToolTip": "TaskManagement\\Models\\DTOs\\Auth\\Register.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:08:10.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T13:08:10.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\RefreshToken.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\RefreshToken.cs",
@@ -306,12 +329,11 @@
               "RelativeToolTip": "TaskManagement\\Models\\Entities\\RefreshToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:11:19.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T13:11:19.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ITaskServices.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Interface\\ITaskServices.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Services\\Interface\\ITaskServices.cs",
@@ -319,12 +341,11 @@
               "RelativeToolTip": "TaskManagement\\Services\\Interface\\ITaskServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:50:20.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T14:50:20.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Repositories\\Implementation\\TaskRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Repositories\\Implementation\\TaskRepository.cs",
@@ -336,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "taskController.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\taskController.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Controllers\\taskController.cs",
@@ -348,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "TaskStatus.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\TaskStatus.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\TaskStatus.cs",
@@ -360,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\TaskItem.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\TaskItem.cs",
@@ -368,12 +389,11 @@
               "RelativeToolTip": "TaskManagement\\Models\\Entities\\TaskItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:26:23.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T14:26:23.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "TaskServices.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Implementation\\TaskServices.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Services\\Implementation\\TaskServices.cs",
@@ -385,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Data\\ApplicationUser.cs",
@@ -397,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ProjectServices.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Implementation\\ProjectServices.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Services\\Implementation\\ProjectServices.cs",
@@ -409,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\TaskDto.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\TaskDto.cs",
@@ -421,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "userController.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Controllers\\userController.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Controllers\\userController.cs",
@@ -433,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IUserServices.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Interface\\IUserServices.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Services\\Interface\\IUserServices.cs",
@@ -445,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ProjectRepository.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Repositories\\Implementation\\ProjectRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Repositories\\Implementation\\ProjectRepository.cs",
@@ -457,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Repositories\\Implementation\\UserRepository.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Repositories\\Implementation\\UserRepository.cs",
@@ -469,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ProjectDto.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\ProjectDto.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\ProjectDto.cs",
@@ -481,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\DTOs\\Auth\\UserDto.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\DTOs\\Auth\\UserDto.cs",
@@ -493,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "IProjectServices.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Services\\Interface\\IProjectServices.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Services\\Interface\\IProjectServices.cs",
@@ -505,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Project.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\Project.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\Project.cs",
@@ -517,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "ProjectMember.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\ProjectMember.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\ProjectMember.cs",
@@ -529,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "AuditLog.cs",
               "DocumentMoniker": "D:\\roadmap\\CsharpToAspNet\\TaskManagement\\TaskManagement\\Models\\Entities\\AuditLog.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Models\\Entities\\AuditLog.cs",

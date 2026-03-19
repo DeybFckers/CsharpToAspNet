@@ -43,3 +43,4 @@
 - I Learn Asp.Net Identity with Role base Authorization
 - I improve my Asp.Net Identity with Dtos
 - I learn refresh token and httponly cookie jwt
+- i learn cors policy
